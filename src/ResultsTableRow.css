@@ -1,0 +1,12 @@
+.results-table-row {
+}
+
+.results-table-row .party {
+	text-align: left;
+}
+
+.results-table-row .votes,
+.results-table-row .votesPct,
+.results-table-row .seats {
+	text-align: right;
+}

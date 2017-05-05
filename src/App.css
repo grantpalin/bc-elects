@@ -22,3 +22,13 @@
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
 }
+
+body {
+	color: #333;
+}
+
+.results-section {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+}
+.results-section-title { }

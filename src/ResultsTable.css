@@ -1,0 +1,49 @@
+.results-table {
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+.results-table caption {
+	font-weight: bold;
+}
+
+.results-table td,
+.results-table th {
+	padding: 0.5em;
+}
+
+.results-table thead td,
+.results-table thead th {
+	background-color: #333;
+	color: #ccc;
+}
+
+.results-table thead .party {
+	text-align: left;
+}
+.results-table thead .votes {
+	text-align: right;
+}
+.results-table thead .votesPct {
+	text-align: right;
+}
+.results-table thead .seats {
+	text-align: right;
+}
+
+.results-table tfoot td,
+.results-table tfoot th {
+	background-color: #333;
+	color: #ccc;
+}
+
+.results-table tfoot .votes { text-align: right; }
+.results-table tfoot .seats { text-align: right; }
+
+.results-table tbody tr:hover {
+	background-color: #ccc;
+}
+
+.results-table tbody tr + tr {
+	border-top: 1px solid #ccc;
+}

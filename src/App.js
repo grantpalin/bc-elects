@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import ResultsTable from './ResultsTable';
 import ResultsTableRow from './ResultsTableRow';
+import BarChart from './BarChart';
+
 import './App.css';
 
 class App extends Component {
@@ -69,6 +71,9 @@ class App extends Component {
 						data={year.results.map(function(val, i) {
 							return <ResultsTableRow key={i} party={val.party} votes={val.votes} votesTotal={votes} seats={val.seats} seatsTotal={seats} /> })
 						} />
+
+					<BarChart title={year.year + ' - Votes'} year={year.year} data={year.results.map(function(val) { return { party: val.party, value: val.votes }})} width={500} height={500} xlabel="Party" />
+					<BarChart title={year.year + ' - Seats'} year={year.year} data={year.results.map(function(val) { return { party: val.party, value: val.seats }})} width={500} height={500} xlabel="Party" />
 				</section>
 			)
 		});

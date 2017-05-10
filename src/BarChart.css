@@ -1,0 +1,54 @@
+.chart {
+	outline: 1px solid #ccc;
+	padding: 2px;
+}
+
+.chart + .chart {
+	margin-left: 1em;
+}
+
+.chart-title {
+	font-weight: bold;
+}
+
+.chart .bar {
+	fill: rgb(153, 153, 153);
+}
+.chart .bar:hover {
+	fill: rgba(153, 153, 153, 0.5);
+}
+
+.chart .bar.liberal {
+	fill: rgb(199, 38, 54);
+}
+.chart .bar.liberal:hover {
+	fill: rgba(199, 38, 54, 0.5);
+}
+
+.chart .bar.ndp {
+	fill: rgb(232, 119, 34);
+}
+.chart .bar.ndp:hover {
+	fill: rgba(232, 119, 34, 0.5);
+}
+
+.chart .bar.conservative {
+	fill: rgb(15, 94, 175);
+}
+.chart .bar.conservative:hover {
+	fill: rgba(15, 94, 175, 0.5);
+}
+
+.chart .bar.green {
+	fill: rgb(0, 188, 106);
+}
+.chart .bar.green:hover {
+	fill: rgba(0, 188, 106, 0.5);
+}
+
+.chart .bar.libertarian {
+	fill: rgba(244, 191, 76, 1)
+}
+.chart .bar.libertarian:hover {
+	fill: rgba(244, 191, 76, 0.5)
+}

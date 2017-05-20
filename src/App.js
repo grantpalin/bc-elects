@@ -60,6 +60,9 @@ class App extends Component {
 			const votes = year.results.reduce(function(tot, val) { return tot + val["votes"] }, 0);
 			const seats = year.results.reduce(function(tot, val) { return tot + val["seats"] }, 0);
 
+			// little point showing seats for parties that have none, so filter out said parties
+			const seatsData = year.results.filter(function(val) { return val.seats > 0; });
+
 			return (
 				<section className="results-section">
 					<h2 className="results-section-title">{year.year}</h2>
@@ -73,7 +76,7 @@ class App extends Component {
 						} />
 
 					<BarChart title={year.year + ' - Votes'} year={year.year} data={year.results.map(function(val) { return { party: val.party, value: val.votes }})} width={500} height={500} xlabel="Party" />
-					<BarChart title={year.year + ' - Seats'} year={year.year} data={year.results.map(function(val) { return { party: val.party, value: val.seats }})} width={500} height={500} xlabel="Party" />
+					<BarChart title={year.year + ' - Seats'} year={year.year} data={seatsData.map(function(val) { return { party: val.party, value: val.seats }})} width={500} height={500} xlabel="Party" />
 				</section>
 			)
 		});

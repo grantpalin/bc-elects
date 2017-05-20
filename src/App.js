@@ -53,6 +53,51 @@ class App extends Component {
 						"seats": 0
 					}
 				]
+			},
+			{
+				"year": 2009,
+				"results": [
+					{
+						"party": "Liberal",
+						"votes": 751661,
+						"seats": 49
+					},
+					{
+						"party": "NDP",
+						"votes": 691564,
+						"seats": 35
+					},
+					{
+						"party": "Conservative",
+						"votes": 34451,
+						"seats": 0
+					},
+					{
+						"party": "Green",
+						"votes": 134616,
+						"seats": 0
+					},
+					{
+						"party": "Independent",
+						"votes": 17253,
+						"seats": 1
+					},
+					{
+						"party": "Other",
+						"votes": 10997,
+						"seats": 0
+					},
+					{
+						"party": "Rejected Ballots",
+						"votes": 11025,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"votes": 1587170,
+						"seats": 0
+					}
+				]
 			}
 		];
 

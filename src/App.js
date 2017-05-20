@@ -13,11 +13,6 @@ class App extends Component {
 				"year": 2013,
 				"results": [
 					{
-						"party": "BC First",
-						"votes": 1275,
-						"seats": 0
-					},
-					{
 						"party": "Liberal",
 						"votes": 795274,
 						"seats": 49
@@ -38,18 +33,23 @@ class App extends Component {
 						"seats": 1
 					},
 					{
-						"party": "Libertarian",
-						"votes": 2050,
-						"seats": 0
-					},
-					{
 						"party": "Independent",
 						"votes": 42559,
 						"seats": 1
 					},
 					{
 						"party": "Other",
-						"votes": 12814,
+						"votes": 16139,
+						"seats": 0
+					},
+					{
+						"party": "Rejected Ballots",
+						"votes": 11763,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"votes": 1465229,
 						"seats": 0
 					}
 				]

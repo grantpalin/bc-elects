@@ -14,41 +14,49 @@ class App extends Component {
 				"results": [
 					{
 						"party": "Liberal",
+						"abbr": "LIB",
 						"votes": 795274,
 						"seats": 49
 					},
 					{
-						"party": "NDP",
+						"party": "New Democratic Party",
+						"abbr": "NDP",
 						"votes": 715855,
 						"seats": 34
 					},
 					{
 						"party": "Conservative",
+						"abbr": "CP",
 						"votes": 85637,
 						"seats": 0
 					},
 					{
 						"party": "Green",
+						"abbr": "GP",
 						"votes": 146685,
 						"seats": 1
 					},
 					{
 						"party": "Independent",
+						"abbr": "IND",
 						"votes": 42559,
 						"seats": 1
 					},
 					{
 						"party": "Other",
+						"abbr": "other",
 						"votes": 16139,
 						"seats": 0
 					},
 					{
 						"party": "Rejected Ballots",
+						"abbr": "rejected",
 						"votes": 11763,
 						"seats": 0
 					},
 					{
 						"party": "Did Not Vote",
+						"abbr": "dnv",
 						"votes": 1465229,
 						"seats": 0
 					}
@@ -59,41 +67,49 @@ class App extends Component {
 				"results": [
 					{
 						"party": "Liberal",
+						"abbr": "LIB",
 						"votes": 751661,
 						"seats": 49
 					},
 					{
-						"party": "NDP",
+						"party": "New Democratic Party",
+						"abbr": "NDP",
 						"votes": 691564,
 						"seats": 35
 					},
 					{
 						"party": "Conservative",
+						"abbr": "CP",
 						"votes": 34451,
 						"seats": 0
 					},
 					{
 						"party": "Green",
+						"abbr": "GP",
 						"votes": 134616,
 						"seats": 0
 					},
 					{
 						"party": "Independent",
+						"abbr": "IND",
 						"votes": 17253,
 						"seats": 1
 					},
 					{
 						"party": "Other",
+						"abbr": "other",
 						"votes": 10997,
 						"seats": 0
 					},
 					{
 						"party": "Rejected Ballots",
+						"abbr": "rejected",
 						"votes": 11025,
 						"seats": 0
 					},
 					{
 						"party": "Did Not Vote",
+						"abbr": "dnv",
 						"votes": 1587170,
 						"seats": 0
 					}
@@ -120,8 +136,8 @@ class App extends Component {
 							return <ResultsTableRow key={i} party={val.party} votes={val.votes} votesTotal={votes} seats={val.seats} seatsTotal={seats} /> })
 						} />
 
-					<BarChart title={year.year + ' - Votes'} year={year.year} data={year.results.map(function(val) { return { party: val.party, value: val.votes }})} width={500} height={500} xlabel="Party" />
-					<BarChart title={year.year + ' - Seats'} year={year.year} data={seatsData.map(function(val) { return { party: val.party, value: val.seats }})} width={500} height={500} xlabel="Party" />
+					<BarChart title={year.year + ' - Votes'} year={year.year} data={year.results.map(function(val) { return { party: val.party, abbr: val.abbr, value: val.votes }})} width={500} height={500} xlabel="Party" />
+					<BarChart title={year.year + ' - Seats'} year={year.year} data={seatsData.map(function(val) { return { party: val.party, abbr: val.abbr, value: val.seats }})} width={500} height={500} xlabel="Party" />
 				</section>
 			)
 		});

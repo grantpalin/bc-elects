@@ -48,7 +48,7 @@ class BarChart extends Component {
 			.attr("y", d => this.props.height - yScale(d.value))
 			.attr("height", d => yScale(d.value))
 			.attr("width", barWidth + "%")
-			.attr("class", d => "bar " + d.party.toLocaleLowerCase());
+			.attr("class", d => "bar " + d.abbr.toLocaleLowerCase());
 
 
 		select(node)

@@ -114,6 +114,175 @@ class App extends Component {
 						"seats": 0
 					}
 				]
+			},
+			{
+				"year": 2005,
+				"eligible": 3049153,
+				"results": [
+					{
+						"party": "Liberal",
+						"abbr": "LIB",
+						"votes": 807118,
+						"seats": 46
+					},
+					{
+						"party": "New Democratic Party",
+						"abbr": "NDP",
+						"votes": 731719,
+						"seats": 33
+					},
+					{
+						"party": "Conservative",
+						"abbr": "CP",
+						"votes": 9623,
+						"seats": 0
+					},
+					{
+						"party": "Green",
+						"abbr": "GP",
+						"votes": 161842,
+						"seats": 0
+					},
+					{
+						"party": "Independent",
+						"abbr": "IND",
+						"votes": 16152,
+						"seats": 0
+					},
+					{
+						"party": "Other",
+						"abbr": "other",
+						"votes": 35889,
+						"seats": 0
+					},
+					{
+						"party": "Rejected Ballots",
+						"abbr": "rejected",
+						"votes": 11926,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"abbr": "dnv",
+						"votes": 1274884,
+						"seats": 0
+					}
+				]
+			},
+			{
+				"year": 2001,
+				"eligible": 3049153,
+				"results": [
+					{
+						"party": "Liberal",
+						"abbr": "LIB",
+						"votes": 916888,
+						"seats": 77
+					},
+					{
+						"party": "New Democratic Party",
+						"abbr": "NDP",
+						"votes": 343156,
+						"seats": 2
+					},
+					{
+						"party": "Conservative",
+						"abbr": "CP",
+						"votes": 2417,
+						"seats": 0
+					},
+					{
+						"party": "Green",
+						"abbr": "GP",
+						"votes": 197231,
+						"seats": 0
+					},
+					{
+						"party": "Independent",
+						"abbr": "IND",
+						"votes": 14588,
+						"seats": 0
+					},
+					{
+						"party": "Other",
+						"abbr": "other",
+						"votes": 16811,
+						"seats": 0
+					},
+					{
+						"party": "Rejected Ballots",
+						"abbr": "rejected",
+						"votes": 8459,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"abbr": "dnv",
+						"votes": 1274884,
+						"seats": 0
+					}
+				]
+			},
+			{
+				"year": 1996,
+				"eligible": 3049153,
+				"results": [
+					{
+						"party": "Liberal",
+						"abbr": "LIB",
+						"votes": 661929,
+						"seats": 33
+					},
+					{
+						"party": "New Democratic Party",
+						"abbr": "NDP",
+						"votes": 624395,
+						"seats": 39
+					},
+					{
+						"party": "Reform Party of BC",
+						"abbr": "RP",
+						"votes": 146734,
+						"seats": 2
+					},
+					{
+						"party": "Progressive Democratic Alliance",
+						"abbr": "PDA",
+						"votes": 90797,
+						"seats": 1
+					},
+					{
+						"party": "Green",
+						"abbr": "GP",
+						"votes": 31511,
+						"seats": 0
+					},
+					{
+						"party": "Independent",
+						"abbr": "IND",
+						"votes": 14588,
+						"seats": 0
+					},
+					{
+						"party": "Other",
+						"abbr": "other",
+						"votes": 12026,
+						"seats": 0,
+						"note": "Common Sense, Community, Family Party (CCF); Communist Party of British Columbia (COMM); Progressive Conservative Party of British Columbia (CP); Western Canada Concept Party of B.C. (WCC); Independent (IND); No Affiliation (N.A.)."
+					},
+					{
+						"party": "Rejected Ballots",
+						"abbr": "rejected",
+						"votes": 9951,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"abbr": "dnv",
+						"votes": 0,
+						"seats": 0
+					}
+				]
 			}
 		];
 

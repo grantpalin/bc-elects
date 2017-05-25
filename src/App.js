@@ -10,6 +10,47 @@ class App extends Component {
 	render() {
 		const data = [
 			{
+				"year": 2017,
+				"results": [
+					{
+						"party": "Liberal",
+						"abbr": "LIB",
+						"votes": 796672,
+						"seats": 43
+					},
+					{
+						"party": "New Democratic Party",
+						"abbr": "NDP",
+						"votes": 795106,
+						"seats": 41
+					},
+					{
+						"party": "Green",
+						"abbr": "GP",
+						"votes": 332387,
+						"seats": 3
+					},
+					{
+						"party": "Libertarian",
+						"abbr": "lbn",
+						"votes": 7838,
+						"seats": 0
+					},
+					{
+						"party": "Other",
+						"abbr": "other",
+						"votes": 41911,
+						"seats": 0
+					},
+					{
+						"party": "Did Not Vote",
+						"abbr": "dnv",
+						"votes": 1183077,
+						"seats": 0
+					}
+				]
+			},
+			{
 				"year": 2013,
 				"results": [
 					{

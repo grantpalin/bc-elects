@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import ResultsTable from './ResultsTable';
 import ResultsTableRow from './ResultsTableRow';
 import BarChart from './BarChart';
@@ -355,7 +354,6 @@ class App extends Component {
 		return (
 			<div className="app">
 				<div className="app-header">
-					<img src={logo} className="app-logo" alt="logo" />
 					<h1>BC Elects</h1>
 				</div>
 
